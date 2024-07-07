@@ -1,6 +1,6 @@
-set MINGW64=c:\msys64\mingw64
-set GOROOT=%MINGW64%\lib\go
-set PATH=%MINGW64%\bin;%PATH%
+set MINGW32=c:\msys64\mingw32
+set GOROOT=%MINGW32%\lib\go
+set PATH=%MINGW32%\bin;%PATH%
 set ROOT=%~dp0
 
 cd %ROOT%boringssl
